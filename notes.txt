@@ -1,0 +1,4 @@
+Ecommerce Website 
+1. Include libraries = Bootstrap css framework
+2. Create a navbar = l.h.s will be logo and r.h.s will be home, wishlist
+3. 

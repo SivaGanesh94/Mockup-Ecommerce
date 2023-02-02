@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Wishlist</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Ecommerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link position-relative" href="/wishlist.html">Wishlist
+                  
+                    <span id="wishlistCounter" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      0
+                    </span>
+          
+                </a>
+              </li>
+              
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <th></th>
+                        <th>product</th>
+                        <th style="width:40px">Quantity</th>
+                        <th style="text-align:right">Unitprice</th>
+                        <th style="text-align:right">Total</tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button class="btn btn-danger btn-sm">
+                                    <span class="material-icons-outlined">delete</span>
+                                </button>
+                            </td>
+                            <td>
+                                product A
+                            </td>
+                            <td>
+                                <input type="number"/>
+                            </td>
+                            <td style="text-align:right">100.00</td>
+                            <td style="text-align:right">100.00</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="btn btn-danger btn-sm">
+                                    <span class="material-icons-outlined">delete</span>
+                                </button>
+                            </td>
+                            <td>
+                                product A
+                            </td>
+                            <td>
+                                <input type="number"/>
+                            </td>
+                            <td style="text-align:right">100.00</td>
+                            <td style="text-align:right">100.00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" style="text-align:right">Total</td>
+                            <td style="text-align:right">200.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
